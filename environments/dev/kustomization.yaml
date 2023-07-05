@@ -2,3 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
 - ../../k8s/
+images:
+- digest: sha256:6fe9e57e2f34bd04e07918ed873ae9a971e41a34b6c1edbd8fcf8156584bcc1b
+  name: quay.io/rh-ee-srehman/dotnetcore
+  newName: quay.io/rh-ee-srehman/dotnetcore
