@@ -1,4 +1,4 @@
 resources:
 - api-deployment.yaml
 - api-service.yaml
-- route.yaml
+- ui-route.yaml
