@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
 - ../../k8s/
 images:
-- digest: sha256:719193b8f6f3f61dae5d01a380cfb109c5f42c275f50806880ba10ce3e0e6d94
+- digest: sha256:cdfff5c835131434619c7e4850ddb4f0fbe1c0df4828a9cb8a722c14fb2a43c4
   name: quay.io/rh-ee-srehman/dotnetcore
   newName: quay.io/rh-ee-srehman/dotnetcore
